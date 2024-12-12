@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+     padding-top: 50px;
+      padding-bottom: 25px;
+}
+.small-containerac{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(211, 206, 206);
+    border-radius: 30px;
+    font-weight: 400;
+
+}
+h2{
+    text-align: center;
+     padding-top: 25px;
+      padding-bottom: 25px;
+      font-size: 22px;
+}
+p{
+    font-size: 15px;
+}

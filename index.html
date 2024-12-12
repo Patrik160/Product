@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="nep" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-My store | E-commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="/image/Screenshot 2024-11-28 215527.png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="/image/logo.png" alt="Mystore" width="45px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html" accesskey="H"><u>H</u>ome</a></li>
+                <li><a href="products.html" accesskey="P"><u>P</u>roducts</a></li>
+                <li><a href="about.html" accessKey="b">A<u>b</u>out</a></li>
+                <li><a href="contact.html" accesskey="t">Con<u>t</u>act</a></li>
+                <li><a href="account.html" accesskey="A"><u>A</u>ccount</a></li>
+                <small style="color: rgb(163, 162, 162);">Press Alt + keys to use Shortcut key function.</small>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="image/cart.png" alt="Cart" width="30px" height="30px" style="cursor: pointer;" accesskey="C"></a>
+        <img src="image/menu.png" class="menu-icon" accesskey="M"
+        onclick="menutoggle()">
+        </div>
+    <div class="row">
+        <div class="col-2">
+        <h1>Be At Multiple Places <br>At The Same Time!</h1>
+        <p>What do you have to lose?</p>
+        <a href="products.html" class="btn">Shop Now! &#8594;</a>
+    </div>
+    <div class="col-2">
+        <img src="image/image1.png" >
+    </div>
+    </div> 
+</div>
+</div>
+<!-----------------------------featured categories-------------------------->
+    <div class="categories">
+        <div class="small-conatiner">
+        <div class="row">
+            <div class="col-3">
+                <img src="image/category-1.jpg" >
+            </div>
+            <div class="col-3">
+                <img src="image/category-2.jpg" >
+            </div>
+            <div class="col-3">
+                <img src="image/category-3.jpg" >
+            </div>
+        </div>
+    </div> 
+</div>
+<!-----------------------featured products---------------->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-Red_Printed-T-shirt.html"><img src="image/product-1.jpg"></a>
+            <a href="product-Red_Printed-T-shirt.html"><h4>Red Printed T-shirt</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-Black-Shoes.html"><img src="image/product-2.jpg"></a>
+            <a href="product-Black-Shoes.html"><h4>Black Shoes</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$35.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-Grey-Trouser.html"><img src="image/product-3.jpg"></a>
+            <a href="product-Grey-Trouser.html"><h4>Grey Trouser</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$65.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-Black-Printed-T-shirt.html"><img src="image/product-4.jpg"></a>
+            <a href="product-Black-Printed-T-shirt.html"> <h4>Black Printed T-shirt</h4></a>
+           
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <!-------------------------Latest Products-------------------------->
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-Playing-Shoes.html"><img src="image/product-5.jpg"></a>
+            <a href="product-Playing-Shoes.html"></a><h4>Playing Shoes</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$40.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-Puma-T-shirt.html"><img src="image/product-6.jpg"></a>
+            <a href="product-Puma-T-shirt.html"><h4>Puma T-shirt</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-HRX-Socks.html"><img src="image/product-7.jpg"></a>
+            <a href="product-HRX-Socks.html"><h4>HRX-Socks</h4></a>
+            
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$15.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-Fossil-Black-Watch.html"><img src="image/product-8.jpg"></a>
+            <a href="product-Fossil-Black-Watch.html"><h4>Fossil Black Watch</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$80.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-Roadster.html"><img src="image/product-9.jpg"></a>
+            <a href="product-Roadster.html"><h4>Roadster Watch</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-HRX-Shoes.html"><img src="image/product-10.jpg"></a>
+            <a href="product-HRX-Shoes.html"><h4>HRX-Shoes</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-Nike-Trousers.html"><img src="image/product-12.jpg"></a>
+            <a href="product-Nike-Trousers.html"><h4>Nike Trousers</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$60.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-Shoes.html"><img src="image/product-11.jpg"></a>
+            <a href="product-Shoes.html"><h4>Shoes</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$40.00</p>
+            </div>
+    </div>
+</div>
+<!-----------------offer-->
+<div class="offer">
+    <div class="offer-container">
+        <div class="row">
+            <div class="col-2">
+                <a href="offer.html">
+                <img src="image/exclusive.png" class="offer-img"></a>
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available On MyStore</p>
+                <H1>Smart Band 4</H1>
+                <small>
+                    The Mi Band 4 features a 39.9% larger
+                    (than Mi Band 3) AMOLED color full-touch display with 
+                    adjustable brightness, so everything is clear as can 
+                    be.
+                </small>
+                <a href="offer.html" class="btn">Buy now in exclusive discount! &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------testimonial-->
+<div class="testimonial">
+    <div class="small-comtainer">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Mystore has been a game-changer for me. I can shop from anywhere, and the prices are unbeatable. I'm never going back to traditional shopping again!</p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="image/kristina.jpg" alt="">
+                <h3>Kristina Bidari</h3>
+                    
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I'm loving the convenience of shopping on MyStore! I can be at multiple places at the same time, and it's saving me so much time and effort. </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="image/krisha.jpg" alt="">
+                    <h3>Krisha Bidari</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>I was skeptical at first, but MyStore has truly changed the way I shop. The prices are great, and the products are fantastic</p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="image/user-1.png" alt="">
+                        <h3>Sean Parker</h3>
+                        </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I've tried other online stores, but none of them compare to MyStore. The selection is amazing, and the customer service is top-notch.</p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="image/user-2.png" alt="">
+                    <h3>Mike Smith</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>I was blown away by the quality of the products on MyStore. The Red Printed T-shirt I bought is my new favorite item! </p>
+                        <div class="rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="image/user-3.png" alt="">
+                        <h3>Mabel Joe</h3>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="image/play-store.png" >
+                    <img src="image/app-store.png" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="image/logo.png">
+                <p>Our purpose is to provide a convenient and hassle-free shopping experience, 
+                    with a wide range of products, exclusive deals, and competitive prices
+                    on MyStore.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">&#169;Copyright 2020 - My Store</p>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
